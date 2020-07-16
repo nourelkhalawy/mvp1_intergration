@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/painter.css') }}">
+    <title>Document</title>
+</head>
+<body>
+    <img class="logo" src="{{ url_for('static', filename='images/3.png') }}" alt="logo">
+    <div class="textbox">
+        <h1>Look at you!</h1>
+    </div>
+    <div class="imgbox">
+        <img class="center-fit" src="{{ image_source }}" alt="User Image">
+    </div>
+    <div class="footer">
+        <p class="footer-text">All rights reserved. 2020</p>
+    </div>
+</body>
+</html>

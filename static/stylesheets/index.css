@@ -1,0 +1,62 @@
+html{
+    height: 100%;
+}
+body{
+    background: #FFBD59;
+    background: linear-gradient(0deg, rgba(106,34,221,1) 0%, rgba(223,66,76,1) 100%);
+    
+}
+.logo{
+    max-width: 30ch;
+    max-height: 30vh;
+    position: flex;
+    margin-left: 12rem;
+    padding: 0.3rem;
+}
+.logo:hover{
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+    padding: 0.1em;
+    font-family: 'Bangers', cursive;
+    font-size: 3em;
+    color: white;
+    text-shadow: 1px 1px 2px black; 
+}
+.flex-container {
+    display: flex;
+    margin:auto;
+    padding: 10em;
+    padding-top: 15em;
+    flex-direction: row;
+    align-items: center;
+    
+    
+    
+}
+
+.flex-child {
+    flex: 1;
+}  
+.flex-child:first-child {
+    margin-right: 20px;
+} 
+.upload-form{
+    padding-top: 3.5em;
+    color: white;
+    padding-left: 4rem;
+}
+
+.button {
+    background-color: #F8E473;
+    border: none;
+    font-family: Bangers;
+    border-radius: 14px;;
+    color: purple;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="132px" viewBox="0 0 128 132" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Combined Shape 3</title>
+    <defs>
+        <path d="M55.1879157,-2.84217094e-14 C89.4847986,-2.84217094e-14 117.287916,27.3106303 117.287916,61 C117.287916,64.5041837 116.987113,67.9393557 116.409488,71.2819606 L104.407916,49 L81.1551311,92.173134 L29.1603241,99.0962679 L54.7994746,121.998832 C30.9405894,121.855278 10.2724334,108.495281 2.78443935e-13,88.9962087 C0.148945939,88.999337 0.298360176,89 0.447915681,89 C30.4259319,89 54.7279157,62.3609426 54.7279157,29.5 C54.7279157,18.9404367 52.2184942,9.02334491 47.8176909,0.426199862 C50.2340576,0.144427541 52.693816,-2.84217094e-14 55.1879157,-2.84217094e-14 Z" id="path-1"></path>
+        <filter x="-4.8%" y="-4.5%" width="112.2%" height="112.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="8" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="1" dy="1" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-4.4%" y="-4.1%" width="111.4%" height="111.3%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-145.000000, -423.000000)">
+            <g id="Combined-Shape" transform="translate(149.000000, 426.000000)">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                <path stroke="#FBF47F" stroke-width="8" d="M55.1879157,4 C71.2400788,4 85.775677,10.3858989 96.2962059,20.7200739 C105.784315,30.0401166 112.005107,42.5732557 113.110893,56.5176662 L113.128,56.754 L104.407821,40.5647409 L78.6021631,88.4777606 L20.0034422,96.2802089 L42.8857276,116.720161 C36.4020919,115.349194 30.3201902,112.916495 24.8384621,109.61516 C17.6469706,105.284131 11.4877331,99.459422 6.81330484,92.5792151 C20.4053113,90.9015616 32.5425274,84.2549353 41.6682151,74.3341515 C52.2130046,62.8706234 58.7279157,47.0230735 58.7279157,29.5 C58.7279157,20.4316642 56.9826697,11.8104575 53.8459772,4.0148926 C54.2920653,4.00497922 54.7393982,4 55.1879157,4 Z" stroke-linejoin="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>

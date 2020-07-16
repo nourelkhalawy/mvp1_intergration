@@ -1,0 +1,50 @@
+html{
+    height: 100%;
+}
+body{
+    background: rgb(106,34,221);
+    background: linear-gradient(0deg, rgba(106,34,221,1) 0%, rgba(223,66,76,1) 100%);
+}
+.imgbox {
+    display: grid;
+    height: 100%;
+}
+.center-fit {
+    max-width: 60ch;
+    max-height: 60vh;
+    margin: auto;
+    transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: solid white;
+}
+.center-fit:hover{
+    transform: scale(1.05);
+}
+h1{
+    text-align: center;
+    padding: 0.5em;
+    font-family: 'Bangers', cursive;
+    font-size: 3em;
+    color: white;
+    text-shadow: 1px 1px 2px black; 
+}
+.logo{
+    max-width: 20ch;
+    max-height: 20vh;
+    position: fixed;
+    padding: 1em;
+    top: 10px;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.footer{
+    display: grid;
+    margin: auto;
+    margin-top: 2em;
+    bottom: 10px;
+}
+.footer-text{
+    text-align: center;
+    color: white;
+    font-family: monospace;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Home Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/index.css') }}">
+</head>
+  <body>
+    
+    <div class="flex-container">
+      <div class = flex-child>
+        <img class="logo" src="{{ url_for('static', filename='images/3.png') }}" alt="logo">  
+      </div>
+      <div class="flex-child">
+        <h1>Create Your Own Hero</h1>
+      </div>
+      <div class="flex-child">
+        <form class="upload-form" action="upload" method="post" enctype="multipart/form-data">
+          <input class="button" type="file" name="file"><br/><br />
+          <input class="button" type="submit" value="Upload">
+      </form>
+      </div>
+    </div>
+</body>
+</html>
